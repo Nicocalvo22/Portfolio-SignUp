@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--font-->
+</head>
+<body>
+    <main class="flex-container">
+        <section class="first-section">
+            <h1>Learn to code by<br>watching others</h1>
+            <p class="first-p">See how experienced developers solve problems in real-time. <br> Watching scripted tutorials is great, but understanding how <br> developers think is invaluable.</p>
+        </section>
+        <section class="second-section">
+            <article class="first-article shadow"><p class="p-7"><b> Try it free 7 days </b>then $20/mo. thereafter</p></article>
+            <article class="second-article">
+                <form action="">
+                    <input id="nameInput" class="gral-input gral-input-1" type="text" placeholder="First Name">
+                    <div id="nameError1"></div>
+                    <input id="lastNameInput" class="gral-input gral-input-1" type="text" placeholder="Last Name">
+                    <div id="nameError2"></div>
+                    <input id="mailInput" class="gral-input gral-input-1" type="email" placeholder="Email Address">
+                    <div id="mailError"></div>
+                    <input id="pwInput" class="gral-input gral-input-1" type="password" placeholder="Password">
+                    <div id="pwError"></div>
+                    <input id="submitInput" class="gral-input button shadow" type="submit" value="CLAIM YOUR FREE TRIAL"></input>
+                </form>
+                <div id="correct-sign"></div>
+                <p class="second-p second-p-main">By clicking the button, you are agreeing to our <span class="red-span second-p">Terms and Services</span></p>
+            </article>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
